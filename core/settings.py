@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['void-backend-hb66.onrender.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
